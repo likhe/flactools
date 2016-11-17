@@ -6,22 +6,14 @@
   <header>
     <div class="title">
       <h1>Titre</h1>
-    </div>
+    </div>    
   </header>
-  <nav>
-      <ul>
-        <li>Page 1</li>
-        <li>Page 2</li>
-        <li>Page 3</li>
-        <li>Page 4</li>
-      </ul>
-    </nav>
   <div class="content">
     <div class="up"></div>
     <div class="down">
-      <div class="west"></div>
-      <div class="middle"></div>
-      <div class="east"></div>
+      <div class="first"></div>
+      <div class="second"></div>
+      <div class="third"></div>
     </div>
       <div class="backtop">
         <a class=”back-to-top” style=”display: inline;” href=”#”>Back to Top</a>
