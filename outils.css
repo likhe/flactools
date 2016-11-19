@@ -1,0 +1,196 @@
+.no-mg {
+	margin: 0;
+}
+
+.mg-s { /*-------------------MARGIN*/
+	margin: 2px;
+}
+
+.mg-m {
+	margin: 5px;
+}
+
+.mg-l {
+	margin: 10px;
+}
+
+.mg-xl {
+	margin: 20px;
+}
+
+.mgt-s {/*------------------MARGIN TOP*/
+	margin-top: 2px;
+}
+
+.mgt-m {
+	margin-top: 5px;
+}
+
+.mgt-l {
+	margin-top: 10px;
+}
+
+.mgt-xl {
+	margin-top: 20px;
+}
+
+.mgb-s {/*------------------MARGIN BOTTOM*/
+	margin-bottom: 2px;
+}
+
+.mgb-m {
+	margin-bottom: 5px;
+}
+
+.mgb-l {
+	margin-bottom: 10px;
+}
+
+.mgb-xl {
+	margin-bottom: 20px;
+}
+
+.mgl-s {/*------------------MARGIN LEFT*/
+	margin-left: 2px;
+}
+
+.mgl-m {
+	margin-left: 5px;
+}
+
+.mgl-l {
+	margin-left: 10px;
+}
+
+.mgl-xl {
+	margin-left: 20px;
+}
+
+.mgr-s {/*------------------MARGIN RIGHT*/
+	margin-right: 2px;
+}
+
+.mgr-m {
+	margin-right: 5px;
+}
+
+.mgr-l {
+	margin-right: 10px;
+}
+
+.mgr-xl {
+	margin-right: 20px;
+}
+
+.pdg-s { /*------------------PADDING*/
+	padding: 2px;
+}
+
+.pdg-m {
+	padding: 5px;
+}
+
+.pdg-l {
+	padding: 10px;
+}
+
+.pdgt-s { /*------------------PADDING TOP*/
+	padding-top: 2px;
+}
+
+.pdgt-m {
+	padding-top: 5px;
+}
+
+.pdgt-l {
+	padding-top: 10px;
+}
+
+.pdgb-s { /*------------------PADDING BOTTOM*/
+	padding-bottom: 2px;
+}
+
+.pdgb-m {
+	padding-bottom: 5px;
+}
+
+.pdgb-l {
+	padding-bottom: 10px;
+}
+
+.pdgl-s { /*------------------PADDING LEFT*/
+	padding-left: 2px;
+}
+
+.pdgl-m {
+	padding-left: 5px;
+}
+
+.pdgl-l {
+	padding-left: 10px;
+}
+
+.pdgr-s { /*------------------PADDING RIGHT*/
+	padding-right: 2px;
+}
+
+.pdgr-m {
+	padding-right: 5px;
+}
+
+.pdgr-l {
+	padding-right: 10px;
+}
+
+.wid-xl { /*------------------WIDTH*/
+	width: 100%;
+}
+
+.wid-l {
+	width: 70%;
+}
+
+.wid-m {
+	width: 50%;
+}
+
+.wid-s {
+	width: 30%;
+}
+
+.bord-sol { /*----------------BORDERS*/
+	border: 2px solid black;
+}
+
+.bord-dot {
+	border: 2px dotted black;
+}
+
+.bord-dash {
+	border: 2px dashed black;
+}
+
+.bord-in {
+	border: 2px inset black;
+}
+
+.bord-out {
+	border: 2px outset black;
+}
+
+.h1 { /*----------------------------TITRES*/
+	font-size: 50px;
+}
+
+.h2 {
+	font-size: 30px;
+}
+
+.h3 {
+	font-size: 20px;
+}
+
+.h4 {
+	font-size: 15px;
+}
+
