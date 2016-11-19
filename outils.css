@@ -142,4 +142,55 @@
 	padding-right: 10px;
 }
 
+.wid-xl { /*------------------WIDTH*/
+	width: 100%;
+}
+
+.wid-l {
+	width: 70%;
+}
+
+.wid-m {
+	width: 50%;
+}
+
+.wid-s {
+	width: 30%;
+}
+
+.bord-sol { /*----------------BORDERS*/
+	border: 2px solid black;
+}
+
+.bord-dot {
+	border: 2px dotted black;
+}
+
+.bord-dash {
+	border: 2px dashed black;
+}
+
+.bord-in {
+	border: 2px inset black;
+}
+
+.bord-out {
+	border: 2px outset black;
+}
+
+.h1 { /*----------------------------TITRES*/
+	font-size: 50px;
+}
+
+.h2 {
+	font-size: 30px;
+}
+
+.h3 {
+	font-size: 20px;
+}
+
+.h4 {
+	font-size: 15px;
+}
 
