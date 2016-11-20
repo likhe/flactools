@@ -10,12 +10,12 @@ body {min-width:767px;}
 .row {width:767px;}
 
 /* Resize the columns */
-.col_12 {width:748px;}
-.col_9 {width:492px;}
-.col_8 {width:556px;}
-.col_6 {width:364px;}
-.col_4 {width:172px;}
-.col_3 {width:236px;}
+.grid_12 {width:748px;}
+.grid_9 {width:492px;}
+.grid_8 {width:556px;}
+.grid_6 {width:364px;}
+.grid_4 {width:172px;}
+.grid_3 {width:236px;}
 
 }
 
@@ -30,9 +30,9 @@ body {min-width:479px;}
 .row {width:479px;}
 
 /* Resize the columns */
-.col_12 {width:460px;}
-.col_9, .col_8, .col_6 {width:225px;}
-.col_4, .col_3 {width:225px; margin-left:0;}
+.grid_12 {width:460px;}
+.grid_9, .grid_8, .grid_6 {width:225px;}
+.grid_4, .grid_3 {width:225px; margin-left:0;}
 
 /* Fix the .last issue */
 .last {
@@ -44,14 +44,20 @@ margin-right:10px;}
 /* Mobile Portrate Screen Sizes */
 @media only screen and (max-width: 479px) {
 /* Resize the body */
-body {min-width:320px;}
+body {
+	min-width:320px;
+	}
 
 /* Resize the row */
-.row {width:320px;}
+.row {width:320px;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	}
 
 /* Resize the columns */
-.col_12, .col_9, .col_8, .col_6 {width:300px;}
-.col_4, .col_3 {width:300px; margin-left:0;}
+.grid_12, .grid_9, .grid_8, .grid_6 {width:300px; flex: 1;}
+.grid_4, .grid_3 {width:300px; margin-left:0; flex: 1;}
 
 /* Fix the .last issue */
 .last {
