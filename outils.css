@@ -179,23 +179,23 @@
 }
 
 .h1 { /*----------------------------TITRES*/
-	font-size: 50px;
+	font-size: 5em;
 	font-family: sans-serif;
 }
 
 .h2 {
-	font-size: 30px;
+	font-size: 2em;
 	font-family: sans-serif;
 }
 
 .h3 {
-	font-size: 20px;
+	font-size: 1.5em;
 	font-family: sans-serif;
 }
 
 .h4 {
-	font-size: 15px;
-	font-family: sans-serif;
+	font-size: 1em;
+	font-family: sans-serif; 
 }
 
 .a { /*------------------------------LIENS*/
@@ -205,4 +205,9 @@
 
 .a:hover {
 	text-decoration: underline;
+}
+
+.butsquare {
+	border-radius: 0%;
+	
 }
