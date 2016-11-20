@@ -34,26 +34,25 @@
 }
 .neutral_button {
     margin-top: 20px;
-    width: 80px;
+    width: 7%;
     height: 40px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 7px;
     font-size: 1em;
-    background-color: #3282AF;
-    border-bottom: 5px solid #327295;
+    background-color: transparent;
+    border: 3px solid #4b4b51;
+    color: #4b4b51;
     display: flex;
 }
 .neutral_button:hover {
-    background-color: #327295;
-    border-bottom: 5px solid #1E4459;
+    background-color: rgba(170, 170, 170, 1);
 }
 .button_link {
     margin:auto;
-    color: white;
-    text-shadow: 0px -2px #327295;
+    color: #4b4b51;
     width: 100%;
     text-align: center;
 }
 .button_link:hover {
-  color: white;
+  color: #4b4b51;
 }
