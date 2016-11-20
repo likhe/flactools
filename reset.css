@@ -15,12 +15,19 @@ ol, ul {
 a , a:hover, a:active {
   text-decoration: none;
   color: inherit;
+  background-color: transparent;
 }
 div {
   box-sizing: border-box;
 }
 img {
   border: none;
+}
+.img-round {
+  border-radius: 7px;
+}
+.img-circle {
+  border-radius: 50%;
 }
 table {
   border-spacing: 0;
