@@ -62,6 +62,8 @@ body {
 /* Fix the .last issue */
 .last {
 margin-left:0;
-margin-right:10px;}
+margin-right:10px;
+flex: 1;
+	}
 }
 
