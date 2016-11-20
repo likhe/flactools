@@ -10,7 +10,7 @@
 }
 /*Modèle homepage bloc couleur+texte pleine page--Ajout framework ?*/
 #fullhomeblock {
-  background-color: #327295;
+  background: linear-gradient(to bottom, #327295, #4c92b8);
   width: 100%;
   height:70%;
   text-align: center;
