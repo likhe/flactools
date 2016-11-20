@@ -14,7 +14,6 @@ nav {
 }
 li a {
 	display:block;
-	min-width:140px;
 	height: 50px;
   line-height: 50px;
 	text-align: center;
@@ -45,4 +44,39 @@ li ul {
 /*Affichage liens Toggle*/
 ul li a:hover + .hidden, .hidden:hover {
 	display: block;
+}
+/*Hide checkbox*/
+input[type=checkbox], .show-menu {
+    display: none;
+}
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	color: #fff;
+	background: #e2575e;
+	text-align: center;
+	padding: 10px 0;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+/*-----MEDIA QUERIES-----*/
+@media screen and (max-width : 760px){
+	ul {
+		position: static;
+		display: none;
+	}
+	li {
+		margin-bottom: 1px;
+	}
+	ul li, li a {
+		width: 100%;
+	}
+  .show-menu {
+		display:block;
+	}
+  #menu {
+    display: none;
+  }
 }
