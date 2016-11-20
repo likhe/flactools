@@ -5,17 +5,15 @@
 <!-- lien au boostrap par défaut -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- lien au style à customiser si style défaut boostrap pas convaincant --><link rel="stylesheet" href="css/style.css">
-<!--le grid-->
-	<link rel ="stylesheet" href="css/grid.css">
 	<!--le grid flexbox-->
 <link rel ="stylesheet" href="toolkits/flexboxgrid-6.3.1/css/flexboxgrid.min.css">
 
 </head>
 	<!--contenu du site-->
 <body>
-	<div class="container_12">
+	<div class="row">
 	<!--header-->
-  <div id="toppage" class="grid_3">
+  <div id="toppage">
     <div class="title">
       <h1>Titre</h1>
     </div>
@@ -23,7 +21,7 @@
 	 <!--end header-->
 		<div class="clear"></div>
 	<!--menu horizontal-->
-  <div class="menu grid_9">
+  <div class="row">
       <ul>
         <li>Pag 1</li>
         <li>Pag 2</li>
@@ -33,25 +31,23 @@
     </div>
 	<!--fin du menu-->
 	<!--container-->
-  <div class="content grid_12">
-    <div class="up grid_12">
+  <div class="container-fluid">
+	  <div class= "row">
+    	<div class= "col-xs-12 col-sm-12 col-md-12 col-lg-12">
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+		</div>
 	</div>
 	  <div class="clear"></div>
 	  <div class="row">
-    <div class="down grid_9">
-      <div class="cell grid_3 alpha">
-		<img src="http://placekitten.com/g/220/120"/>
+    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 start-xs">
+      <div class="cell col-xs-3 col-sm-3 col-md-3 col-lg-3 first-lg">
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 		</div>
-      <div class="cell grid_3">
-		<img src="http://placekitten.com/g/220/120"/>
+      <div class="cell col-xs-3 col-sm-3 col-md-3 col-lg-3">
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 		</div>
-      <div class="cell grid_3 omega">
-		</div>
-		<img src="http://placekitten.com/g/220/120"/>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      <div class="cell col-xs-3 col-sm-3 col-md-3 col-lg-3">
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 		</div>
     </div>
 	  <div class="clear"></div>
