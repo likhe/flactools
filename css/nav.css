@@ -1,82 +1,79 @@
 nav {
-  width: 100%;
+    width: 100%;
 }
 #menu {
-  list-style-type:none;
-  width: 100%;
-  position: absolute;
-  display:flex;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 #menu li {
-  flex: 1;
+    flex: 1;
 }
 li a {
-	display:block;
-	height: 50px;
-  line-height: 50px;
-	text-align: center;
-	color: #fff;
-	background-color: #2f3036;
-  display: flex;
-  justify-content: center;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #2f3036;
+    display: flex;
+    justify-content: center;
 }
 li:hover a {
-	background-color: #aaaaaa;
-  color: black;
+    background-color: #aaaaaa;
+    color: black;
 }
 /*Liens Toggle*/
 li:hover ul a {
-	background-color: #aaaaaa;
-	color: #2f3036;
-	height: 40px;
-  line-height: 40px;
+    background-color: #aaaaaa;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
 }
 /*Hover liens Toggle*/
 li:hover ul a:hover {
-	background-color: #e2575e;
+    background-color: #e2575e;
 }
 /*Hide liens Toggle*/
 li ul {
-	display: none;
+    display: none;
 }
 /*Affichage liens Toggle*/
-ul li a:hover + .hidden, .hidden:hover {
-	display: block;
+ul li a:hover+.hidden, .hidden:hover {
+    display: block;
 }
-/*Hide checkbox*/
+/*Menu responsif*/
 input[type=checkbox], .show-menu {
     display: none;
 }
-/*Style 'show menu' label button and hide it by default*/
 .show-menu {
-	color: #fff;
-	background: #e2575e;
-	text-align: center;
-	padding: 10px 0;
+    color: #fff;
+    background-color: #2f3036;
+    text-align: center;
+    padding: 10px 0;
 }
-
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
+input[type=checkbox]:checked~#menu {
     display: block;
 }
 /*-----MEDIA QUERIES-----*/
-@media screen and (max-width : 760px){
-	ul {
-		position: static;
-		display: none;
-	}
-	li {
-		margin-bottom: 1px;
-	}
-	ul li, li a {
-		width: 100%;
-	}
-  .show-menu {
-		display:block;
-	}
-  #menu {
-    display: none;
-  }
+@media screen and (max-width: 760px) {
+    ul {
+        position: static;
+        display: none;
+    }
+    li {
+        margin-bottom: 1px;
+    }
+    ul li, li a {
+        width: 100%;
+    }
+    .show-menu {
+        display: block;
+    }
+    #menu {
+        display: none;
+    }
 }
