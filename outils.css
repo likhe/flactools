@@ -3,51 +3,51 @@
 }
 
 .mg-s { /*-------------------MARGIN*/
-	margin: 2px;
+	margin: 0.5%;
 }
 
 .mg-m {
-	margin: 5px;
+	margin: 2%;
 }
 
 .mg-l {
-	margin: 10px;
+	margin: 7%;
 }
 
 .mg-xl {
-	margin: 20px;
+	margin: 15%;
 }
 
 .mgt-s {/*------------------MARGIN TOP*/
-	margin-top: 2px;
+	margin-top: 0.5%;
 }
 
 .mgt-m {
-	margin-top: 5px;
+	margin-top: 2%;
 }
 
 .mgt-l {
-	margin-top: 10px;
+	margin-top: 5%;
 }
 
 .mgt-xl {
-	margin-top: 20px;
+	margin-top: 10%;
 }
 
 .mgb-s {/*------------------MARGIN BOTTOM*/
-	margin-bottom: 2px;
+	margin-bottom: 0.5%;
 }
 
 .mgb-m {
-	margin-bottom: 5px;
+	margin-bottom: 2%;
 }
 
 .mgb-l {
-	margin-bottom: 10px;
+	margin-bottom: 5%;
 }
 
 .mgb-xl {
-	margin-bottom: 20px;
+	margin-bottom: 10%;
 }
 
 .mgl-s {/*------------------MARGIN LEFT*/
