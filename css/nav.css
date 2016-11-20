@@ -1,7 +1,7 @@
 nav {
     width: 100%;
 }
-#menu {
+.menu {
     list-style-type: none;
     width: 100%;
     position: absolute;
@@ -9,7 +9,7 @@ nav {
     margin: 0;
     padding: 0;
 }
-#menu li {
+.menu li {
     flex: 1;
 }
 li a {
@@ -54,7 +54,7 @@ input[type=checkbox], .show-menu {
     text-align: center;
     padding: 10px 0;
 }
-input[type=checkbox]:checked~#menu {
+input[type=checkbox]:checked~.menu {
     display: block;
 }
 /*-----MEDIA QUERIES-----*/
@@ -72,7 +72,7 @@ input[type=checkbox]:checked~#menu {
     .show-menu {
         display: block;
     }
-    #menu {
+    .menu {
         display: none;
     }
 }
