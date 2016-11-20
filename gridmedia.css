@@ -1,0 +1,61 @@
+.img {
+	width: 100%;
+}
+/* Tablet Screen Sizes */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/* Resize the body */
+body {min-width:767px;}
+
+/* Resize the row */
+.row {width:767px;}
+
+/* Resize the columns */
+.col_12 {width:748px;}
+.col_9 {width:492px;}
+.col_8 {width:556px;}
+.col_6 {width:364px;}
+.col_4 {width:172px;}
+.col_3 {width:236px;}
+
+}
+
+
+/* Mobile Landscape Screen Sizes */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* Resize the body */
+body {min-width:479px;}
+
+/* Resize the row */
+.row {width:479px;}
+
+/* Resize the columns */
+.col_12 {width:460px;}
+.col_9, .col_8, .col_6 {width:225px;}
+.col_4, .col_3 {width:225px; margin-left:0;}
+
+/* Fix the .last issue */
+.last {
+margin-left:0;
+margin-right:10px;}
+}
+
+
+/* Mobile Portrate Screen Sizes */
+@media only screen and (max-width: 479px) {
+/* Resize the body */
+body {min-width:320px;}
+
+/* Resize the row */
+.row {width:320px;}
+
+/* Resize the columns */
+.col_12, .col_9, .col_8, .col_6 {width:300px;}
+.col_4, .col_3 {width:300px; margin-left:0;}
+
+/* Fix the .last issue */
+.last {
+margin-left:0;
+margin-right:10px;}
+}
+
