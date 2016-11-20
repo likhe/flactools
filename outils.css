@@ -51,95 +51,95 @@
 }
 
 .mgl-s {/*------------------MARGIN LEFT*/
-	margin-left: 2px;
+	margin-left: 0.5%;
 }
 
 .mgl-m {
-	margin-left: 5px;
+	margin-left: 2%;
 }
 
 .mgl-l {
-	margin-left: 10px;
+	margin-left: 5%;
 }
 
 .mgl-xl {
-	margin-left: 20px;
+	margin-left: 10%;
 }
 
 .mgr-s {/*------------------MARGIN RIGHT*/
-	margin-right: 2px;
+	margin-right: 0.5%;
 }
 
 .mgr-m {
-	margin-right: 5px;
+	margin-right: 2%;
 }
 
 .mgr-l {
-	margin-right: 10px;
+	margin-right: 5%;
 }
 
 .mgr-xl {
-	margin-right: 20px;
+	margin-right: 10%;
 }
 
 .pdg-s { /*------------------PADDING*/
-	padding: 2px;
+	padding: 0.5%;
 }
 
 .pdg-m {
-	padding: 5px;
+	padding: 2%;
 }
 
 .pdg-l {
-	padding: 10px;
+	padding: 4%;
 }
 
 .pdgt-s { /*------------------PADDING TOP*/
-	padding-top: 2px;
+	padding-top: 0.5%;
 }
 
 .pdgt-m {
-	padding-top: 5px;
+	padding-top: 2%;
 }
 
 .pdgt-l {
-	padding-top: 10px;
+	padding-top: 4%;
 }
 
 .pdgb-s { /*------------------PADDING BOTTOM*/
-	padding-bottom: 2px;
+	padding-bottom: 0.5%;
 }
 
 .pdgb-m {
-	padding-bottom: 5px;
+	padding-bottom: 2%;
 }
 
 .pdgb-l {
-	padding-bottom: 10px;
+	padding-bottom: 4%;
 }
 
 .pdgl-s { /*------------------PADDING LEFT*/
-	padding-left: 2px;
+	padding-left: 0.5%;
 }
 
 .pdgl-m {
-	padding-left: 5px;
+	padding-left: 2%;
 }
 
 .pdgl-l {
-	padding-left: 10px;
+	padding-left: 4%;
 }
 
 .pdgr-s { /*------------------PADDING RIGHT*/
-	padding-right: 2px;
+	padding-right: 0.5%;
 }
 
 .pdgr-m {
-	padding-right: 5px;
+	padding-right: 2%;
 }
 
 .pdgr-l {
-	padding-right: 10px;
+	padding-right: 4%;
 }
 
 .wid-xl { /*------------------WIDTH*/
