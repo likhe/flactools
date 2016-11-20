@@ -1,11 +1,27 @@
-#container {
+.container_intro { /*Voir pour ajouter sur framework ?*/
     position: absolute;
     margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    border-top: 0;
-    border-bottom: 0;
-    background-color: rgba(170, 170, 170, 0.5);
-    padding: 15px;
-    text-align: center;
+}
+.intro_nav {
+  background-color: rgba(170, 170, 170, 0.5);
+  padding: 15px;
+  text-align: center;
+}
+#fullhomeblock { /*Voir pour ajouter sur framework ?*/
+  background-color: rgba(226,87,94, 0.8);
+  width: 100%;
+  height:70%;
+  text-align: center;
+}
+.fullhomearticle { /*Voir pour ajouter sur framework ?*/
+  padding-top: 90px;
+}
+.fullhomeh2 { /*Voir pour ajouter sur framework ?*/
+  display: block;
+  color: white;
+}
+.fullhomelogo { /*Voir pour ajouter sur framework ?*/
+  font-size: 5em;
+  color: white;
+  border: 4px solid white;
 }
