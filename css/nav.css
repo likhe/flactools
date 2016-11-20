@@ -13,10 +13,8 @@ nav {
     flex: 1;
 }
 li a {
-    display: block;
     height: 50px;
     line-height: 50px;
-    text-align: center;
     color: #fff;
     background-color: #2f3036;
     display: flex;
@@ -37,15 +35,16 @@ li:hover ul a {
 li:hover ul a:hover {
     background-color: #e2575e;
 }
-/*Hide liens Toggle*/
+/*Cache liens Toggle*/
 li ul {
     display: none;
 }
-/*Affichage liens Toggle*/
+/*Permet affichage liens Toggle*/
 ul li a:hover+.hidden, .hidden:hover {
     display: block;
+    padding: 0;
 }
-/*Menu responsif*/
+/*Bouton menu responsif*/
 input[type=checkbox], .show-menu {
     display: none;
 }
