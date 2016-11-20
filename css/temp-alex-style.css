@@ -1,0 +1,11 @@
+#container {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 0;
+    border-bottom: 0;
+    background-color: rgba(170, 170, 170, 0.5);
+    padding: 15px;
+    text-align: center;
+}

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/nav.css" media="screen">
 	<link rel="stylesheet" href="css/style-header-footer.css" media="screen">
 	<link rel="stylesheet" href="css/flactools-fonts.css" media="screen">
+	<link rel="stylesheet" href="css/temp-alex-style.css" media="screen">
 	<link rel="icon" href="images/favicon.png" />
 </head>
 
@@ -17,7 +18,31 @@
 		<a href="index.html"><h1>Welcome to <span class="f_logo">F</span>lactools !</h1></a>
 	</header>
 
-	<div id="toppage">
+	<nav>
+		<label for="show-menu" class="show-menu">Menu</label>
+		<input type="checkbox" id="show-menu" role="button">
+			<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Toggle 1 ￬</a>
+							<ul class="hidden">
+									<li><a href="#">Hello</a></li>
+									<li><a href="#">World</a></li>
+							</ul>
+					</li>
+					<li>
+							<a href="#">Toggle 2 ￬</a>
+							<ul class="hidden">
+									<li><a href="#">One</a></li>
+									<li><a href="#">Two</a></li>
+									<li><a href="#">Three</a></li>
+							</ul>
+					</li>
+					<li><a href="nav.html">Nav responsive</a></li>
+					<li><a href="#">Class 2</a></li>
+			</ul>
+	</nav>
+
+	<!--<div id="toppage">
 		<div class="title">
 			<h2>Titre</h2>
 		</div>
@@ -40,8 +65,8 @@
 		<div class="backtop">
 			<a href="#toppage" target="_top">&#8679;</a>
 		</div>
-	</div>
-	<footer>
+	</div>-->
+	<!--<footer>
 		<span>
       <ul>
         <li>Page 1</li>
@@ -50,7 +75,7 @@
         <li>Page 4</li>
       </ul>
     </span>
-	</footer>
+	</footer>-->
 </body>
 
 </html>
