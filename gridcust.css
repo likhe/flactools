@@ -5,6 +5,7 @@
 /*Parents*/
 .col {
   flex: 1;
+  padding: .6em;
   margin: .6em;
 }
 /*Optionnal*/
