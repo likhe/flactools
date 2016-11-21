@@ -3,20 +3,21 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  min-height: 100vh /*462px*/;
 }
 /*Child*/
 .row {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 2vh /*10px*/;
 }
 /*Grand-child*/
 .col {
   flex: 1;
   /*separation*/
-  padding: 10px;
-  margin: 10px;/*le plus important*/
+  padding: 2vh/*10px*/;
+  margin: 2vh/*10px*/;/*le plus important*/
 }
 /*Optionnal*/
 .col {
