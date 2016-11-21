@@ -59,10 +59,6 @@ input[type=checkbox]:checked~.menu {
 }
 /*-----MEDIA QUERIES-----*/
 @media screen and (max-width: 760px) {
-    ul {
-        position: static;
-        display: none;
-    }
     li {
         margin-bottom: 1px;
     }

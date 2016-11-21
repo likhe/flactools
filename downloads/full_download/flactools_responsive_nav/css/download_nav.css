@@ -1,5 +1,6 @@
 #main_nav {
     width: 100%;
+    position: fixed;
 }
 .vertical_nav {
     list-style-type: none;
@@ -59,11 +60,7 @@ input[type=checkbox]:checked~.vertical_nav {
 }
 /*-----MEDIA QUERIES-----*/
 @media screen and (max-width: 760px) {
-    ul {
-        position: static;
-        display: none;
-    }
-    .visible_link {
+    li {
         margin-bottom: 1px;
     }
     ul li, li a {
@@ -72,7 +69,7 @@ input[type=checkbox]:checked~.vertical_nav {
     .show-menu {
         display: block;
     }
-    .vertical_nav {
+    .menu {
         display: none;
     }
 }
