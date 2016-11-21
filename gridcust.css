@@ -1,9 +1,9 @@
-/*Parents*/
+/*Parent*/
 .row {
   display: flex;
     margin: .6em;
 }
-/*Parents*/
+/*Child*/
 .col {
   flex: 1;
   /*separation*/
@@ -15,7 +15,7 @@
   color: white;
   background-color: pink;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 427px) {
   .row {
     display: flex;
     flex-direction: row;
