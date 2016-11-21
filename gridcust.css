@@ -6,3 +6,8 @@
 .col {
   flex: 1;
 }
+/*Optionnal*/
+.col {
+  color: pink;
+  background-color: lime;
+}
