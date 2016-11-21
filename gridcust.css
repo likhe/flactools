@@ -1,7 +1,9 @@
 /*Parent*/
 .row {
   display: flex;
-    margin: .6em;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: .6em;
 }
 /*Child*/
 .col {
@@ -15,9 +17,15 @@
   color: white;
   background-color: pink;
 }
+@media screen and {min-width}
+
+}
 @media screen and (max-width: 500px) {
   .row {
     display: flex;
     flex-direction: column;
+  }
+  .col {
+    flex: 1 1 40%;
   }
 }
