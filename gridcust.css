@@ -15,12 +15,9 @@
   color: white;
   background-color: pink;
 }
-@media screen and (min-width: 427px) {
+@media screen and (max-width: 500px) {
   .row {
     display: flex;
     flex-direction: row;
-  }
-  .col {
-    flex: 1;
   }
 }
