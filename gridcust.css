@@ -1,7 +1,7 @@
 /*Parents*/
 .row {
   display: flex;
-    margin: .6em;  
+    margin: .6em;
 }
 /*Parents*/
 .col {
@@ -14,4 +14,9 @@
 .col {
   color: white;
   background-color: pink;
+}
+@media screen and (min-width: 500px) {
+  .row {
+    display: flex;
+  }
 }
