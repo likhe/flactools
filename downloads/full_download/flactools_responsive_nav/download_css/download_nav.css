@@ -44,7 +44,7 @@ ul li a:hover+.hidden, .hidden:hover {
     display: block;
     padding: 0;
 }
-/*Bouton menu responsif--*/
+/*Bouton menu responsif--Ajoutez un <label for="show-menu" class="show-menu"> & <input type="checkbox" id="show-menu" role="button"> dans votre DOM*/
 input[type=checkbox], .show-menu {
     display: none;
 }
