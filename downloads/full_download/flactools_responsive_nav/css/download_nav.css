@@ -2,6 +2,7 @@
     width: 100%;
     position: fixed;
 }
+
 .vertical_nav {
     list-style-type: none;
     width: 100%;
@@ -10,9 +11,11 @@
     margin: 0;
     padding: 0;
 }
+
 .vertical_nav li {
     flex: 1;
 }
+
 .visible_link {
     height: 50px;
     line-height: 50px;
@@ -21,10 +24,13 @@
     display: flex;
     justify-content: center;
 }
+
 .visible_link:hover a {
     background-color: #aaaaaa;
     color: black;
 }
+
+
 /*Pour avoir un menu déroulant avec des catégories : indenter une ul class="hidden" dans li class="visible_link"*/
 .visible_link:hover .hidden a {
     background-color: #aaaaaa;
@@ -32,19 +38,20 @@
     height: 40px;
     line-height: 40px;
 }
-/*Hover liens Toggle*/
-.visible_link:hover .hidden a:hover {
+/*Style liens menu déroulant survolés*/
+.visible_link:hover .hidden_nav_link a:hover {
     background-color: #e2575e;
 }
-/*Cache liens Toggle*/
+/*Cache menu déroulant*/
 .hidden {
     display: none;
 }
-/*Permet affichage liens Toggle*/
+/*Affiche menu déroulant*/
 .hidden_nav_link:hover+.hidden, .hidden:hover {
     display: block;
     padding: 0;
 }
+
 /*Bouton menu responsif--Ajoutez un <label for="show-menu" class="show-menu"> & <input type="checkbox" id="show-menu" role="button"> dans votre DOM*/
 input[type=checkbox], .show-menu {
     display: none;
@@ -58,8 +65,12 @@ input[type=checkbox], .show-menu {
 input[type=checkbox]:checked~.vertical_nav {
     display: block;
 }
+
 /*-----MEDIA QUERIES-----*/
 @media screen and (max-width: 760px) {
+    .vertical_nav {
+        display: none;
+    }
     li {
         margin-bottom: 1px;
     }
@@ -68,8 +79,5 @@ input[type=checkbox]:checked~.vertical_nav {
     }
     .show-menu {
         display: block;
-    }
-    .menu {
-        display: none;
     }
 }
