@@ -5,8 +5,9 @@
 /*Parents*/
 .col {
   flex: 1;
+  /*separation*/
   padding: .6em;
-  margin: .6em;
+  margin: .6em;/*le plus important*/
 }
 /*Optionnal*/
 .col {
