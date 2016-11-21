@@ -9,14 +9,14 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: .6em;
+  margin: 10px;
 }
 /*Grand-child*/
 .col {
   flex: 1;
   /*separation*/
-  padding: .6em;
-  margin: .6em;/*le plus important*/
+  padding: 10px;
+  margin: 10px;/*le plus important*/
 }
 /*Optionnal*/
 .col {
