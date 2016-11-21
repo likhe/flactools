@@ -1,6 +1,8 @@
+/*Parents*/
 .row {
   display: flex;
 }
+/*Parents*/
 .col {
   flex: 1;
 }
