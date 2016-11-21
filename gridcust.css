@@ -20,4 +20,7 @@
     display: flex;
     flex-direction: row;
   }
+  .col {
+    flex: 1;
+  }
 }
