@@ -1,9 +1,7 @@
-* {
-  margin: 0;
-}
 /*Parents*/
 .row {
   display: flex;
+    margin: .6em;  
 }
 /*Parents*/
 .col {
