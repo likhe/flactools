@@ -68,9 +68,9 @@ input[type=checkbox]:checked~.vertical_nav {
 
 /*-----MEDIA QUERIES-----*/
 @media screen and (max-width: 760px) {
-    .vertical_nav {
+    /*.vertical_nav {
         display: none;
-    }
+    }*/
     li {
         margin-bottom: 1px;
     }
