@@ -98,8 +98,6 @@
 
 .a 
 
-.a:hover 
-
 .butsquare : button square => bouton carré
 
 .butround : button round => bouton arrondi
