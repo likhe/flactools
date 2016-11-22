@@ -1,0 +1,60 @@
+/*1er bloc texte après header et nav--Ajout framework ?*/
+.container_intro {
+    position: absolute;
+    margin-top: 10%;
+}
+.intro_nav { /*xxPas Frameworkxx*/
+  background-color: rgba(170, 170, 170, 0.5);/*Exemple background transparent*/
+  padding: 15px;
+  text-align: center;
+}
+/*Modèle homepage bloc dégradé couleur+bloc pleine page--Ajout framework ?*/
+#fullhomeblock {
+  background: linear-gradient(to bottom, #327295, #4c92b8);
+  width: 100%;
+  height:70%;
+  text-align: center;
+}
+/*--*/
+.fullhomearticle {
+  padding-top: 90px;
+}
+.fullhomeh2 {
+  display: block;
+  color: white;
+}
+.fullhomelogo { /*xxPas Frameworkxx*/
+  font-size: 5em;
+  color: white;
+  border: 4px solid white;
+}
+/*Style bouton neutre centré en flex--Ajout framework ?*/
+#flex_neutral_button {
+      display: flex;
+      justify-content: center;
+}
+.neutral_button {
+    margin-top: 20px;
+    width: 7%;
+    height: 40px;
+    position: relative;
+    border-radius: 7px;
+    font-size: 1em;
+    background-color: transparent;
+    border: 3px solid #4b4b51;
+    color: #4b4b51;
+    display: flex;
+}
+.neutral_button:hover {
+    background-color: rgba(170, 170, 170, 1);
+}
+.button_link {
+    margin:auto;
+    color: #4b4b51;
+    width: 100%;
+    text-align: center;
+}
+.button_link:hover {
+  color: #4b4b51;
+}
+/*--*/
