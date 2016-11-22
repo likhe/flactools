@@ -1,8 +1,7 @@
 #main_nav {
     width: 100%;
-    position: fixed;
 }
-.vertical_nav {
+.vert-nav {
     list-style-type: none;
     width: 100%;
     position: absolute;
@@ -10,40 +9,42 @@
     margin: 0;
     padding: 0;
 }
-.visible_link {
+.vert-nav li {
+    flex: 1;
+}
+.nav-a {
     height: 50px;
     line-height: 50px;
     color: #fff;
     background-color: #2f3036;
     display: flex;
     justify-content: center;
-    flex: 1;
+    margin-bottom: 1px;
 }
-.visible_link:hover a {
+li:hover .nav-a {
     background-color: #aaaaaa;
     color: black;
 }
-/*Pour avoir un menu déroulant cliquable : indenter une ul class="hidden" dans li class="visible_link"*/
-.visible_link:hover ul a {
+/*Pour avoir un menu déroulant cliquable : indenter une ul class="hidden" dans li class="vis-a-nav"*/
+li:hover .hid-nav-a {
     background-color: #aaaaaa;
     color: #2f3036;
     height: 40px;
     line-height: 40px;
 }
 /*Style liens menu déroulant survolés*/
-.visible_link:hover .hidden_nav_link a:hover {
+li:hover .hid-nav-a:hover {
     background-color: #e2575e;
 }
 /*Cache menu déroulant*/
-.hidden {
+.hid_ul {
     display: none;
 }
 /*Affiche menu déroulant*/
-.hidden_nav_link:hover+.hidden, .hidden:hover {
+ul li a:hover+.hid_ul, .hid_ul:hover {
     display: block;
     padding: 0;
 }
-
 /*Bouton menu responsif--Ajoutez un <label for="show-menu" class="show-menu"> & <input type="checkbox" id="show-menu" role="button"> dans votre DOM*/
 input[type=checkbox], .show-menu {
     display: none;
@@ -54,22 +55,18 @@ input[type=checkbox], .show-menu {
     text-align: center;
     padding: 10px 0;
 }
-input[type=checkbox]:checked~.vertical_nav {
+input[type=checkbox]:checked~.vert-nav {
     display: block;
 }
-
 /*-----MEDIA QUERIES-----*/
 @media screen and (max-width: 760px) {
-    .vertical_nav {
-        display: none;
-    };
-    li {
-        margin-bottom: 1px;
-    }
-    ul li, li a {
+    .nav-a {
         width: 100%;
     }
     .show-menu {
         display: block;
+    }
+    .vert-nav {
+        display: none;
     }
 }
