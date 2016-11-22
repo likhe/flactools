@@ -261,3 +261,7 @@
 .txt-upcase {
  text-transform: uppercase;
 }
+
+.img-round { /*-------------------------IMAGES*/
+	border-radius: 50px;
+}

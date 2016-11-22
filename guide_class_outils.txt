@@ -113,3 +113,5 @@
 .txt-lowcase : texte en minuscules
 
 .txt-upcase : texte en majuscules
+
+.img-round : image arrondie
