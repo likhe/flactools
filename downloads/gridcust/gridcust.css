@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+}
+img {
+  width: 100%;
+}
 /*Parent*/
 .wrapper {
   display: flex;
@@ -8,7 +14,7 @@
 /*Child*/
 .row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   margin: 2vh /*10px*/;
 }
@@ -24,16 +30,22 @@
   color: white;
   background-color: pink;
 }
-@media screen and (min-width:768px){
+
+@media only screen and (min-width:769px) and (max-width:1440px) {
+  .col {
+    background-color: blue;
+  }
+}
+@media only screen and (min-width:376px) and (max-width:768px) {
   .row {
     flex-direction: row;
     flex-wrap: wrap;
   }
   main .col:nth-child(1) {
-    flex: 2;
+    flex: 1;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
   .row {
     display: flex;
     flex-direction: column;
