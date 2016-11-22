@@ -195,12 +195,11 @@
 
 .h4 {
 	font-size: 1em;
-	font-family: sans-serif; 
+	font-family: sans-serif;
 }
 
 .a { /*---------------------------------LIENS*/
 	background-color: transparent;
-	text-decoration: none;
 }
 
 .a:hover {
@@ -209,12 +208,35 @@
 
 .butsquare { /*-----------------------BOUTONS*/
 	border-radius: 0%;
-	padding: 0.5%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: transparent;
+	color: black;
 }
+
+.butsquare:hover {
+	border-radius: 0%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: blue;
+	color: white;
+}
+
 
 .butround {
 	border-radius: 10%;
-	padding: 0.5%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: transparent;
+	color: black;
+}
+
+.butround:hover {
+	border-radius: 0%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: blue;
+	color: white;
 }
 
 .txt-right { /*----------------------TEXTE*/
