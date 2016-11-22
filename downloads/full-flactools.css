@@ -1,0 +1,273 @@
+/*-------------------------------------------------------------------------------------------
+------------------------------------------PARTIE OUTILS--------------------------------------*/
+
+.no-mg {
+	margin: 0;
+}
+
+.mg-s { /*------------------------MARGIN*/
+	margin: 0.5%;
+}
+
+.mg-m {
+	margin: 2%;
+}
+
+.mg-l {
+	margin: 7%;
+}
+
+.mg-xl {
+	margin: 15%;
+}
+
+.mgt-s {/*--------------------------MARGIN TOP*/
+	margin-top: 0.5%;
+}
+
+.mgt-m {
+	margin-top: 2%;
+}
+
+.mgt-l {
+	margin-top: 5%;
+}
+
+.mgt-xl {
+	margin-top: 10%;
+}
+
+.mgb-s {/*--------------------------MARGIN BOTTOM*/
+	margin-bottom: 0.5%;
+}
+
+.mgb-m {
+	margin-bottom: 2%;
+}
+
+.mgb-l {
+	margin-bottom: 5%;
+}
+
+.mgb-xl {
+	margin-bottom: 10%;
+}
+
+.mgl-s {/*---------------------------MARGIN LEFT*/
+	margin-left: 0.5%;
+}
+
+.mgl-m {
+	margin-left: 2%;
+}
+
+.mgl-l {
+	margin-left: 5%;
+}
+
+.mgl-xl {
+	margin-left: 10%;
+}
+
+.mgr-s {/*----------------------------MARGIN RIGHT*/
+	margin-right: 0.5%;
+}
+
+.mgr-m {
+	margin-right: 2%;
+}
+
+.mgr-l {
+	margin-right: 5%;
+}
+
+.mgr-xl {
+	margin-right: 10%;
+}
+
+.pdg-s { /*----------------------------PADDING*/
+	padding: 0.5%;
+}
+
+.pdg-m {
+	padding: 2%;
+}
+
+.pdg-l {
+	padding: 4%;
+}
+
+.pdgt-s { /*----------------------------PADDING TOP*/
+	padding-top: 0.5%;
+}
+
+.pdgt-m {
+	padding-top: 2%;
+}
+
+.pdgt-l {
+	padding-top: 4%;
+}
+
+.pdgb-s { /*----------------------------PADDING BOTTOM*/
+	padding-bottom: 0.5%;
+}
+
+.pdgb-m {
+	padding-bottom: 2%;
+}
+
+.pdgb-l {
+	padding-bottom: 4%;
+}
+
+.pdgl-s { /*------------------------------PADDING LEFT*/
+	padding-left: 0.5%;
+}
+
+.pdgl-m {
+	padding-left: 2%;
+}
+
+.pdgl-l {
+	padding-left: 4%;
+}
+
+.pdgr-s { /*------------------------------PADDING RIGHT*/
+	padding-right: 0.5%;
+}
+
+.pdgr-m {
+	padding-right: 2%;
+}
+
+.pdgr-l {
+	padding-right: 4%;
+}
+
+.wid-xl { /*------------------------------WIDTH*/
+	width: 100%;
+}
+
+.wid-l {
+	width: 70%;
+}
+
+.wid-m {
+	width: 50%;
+}
+
+.wid-s {
+	width: 30%;
+}
+
+.bord-sol { /*-----------------------------BORDERS*/
+	border: 2px solid black;
+}
+
+.bord-dot {
+	border: 2px dotted black;
+}
+
+.bord-dash {
+	border: 2px dashed black;
+}
+
+.bord-in {
+	border: 2px inset black;
+}
+
+.bord-out {
+	border: 2px outset black;
+}
+
+.h1 { /*---------------------------------TITRES*/
+	font-size: 5em;
+	font-family: sans-serif;
+}
+
+.h2 {
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.h3 {
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+
+.h4 {
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+.a { /*---------------------------------LIENS*/
+	background-color: transparent;
+}
+
+.a:hover {
+	text-decoration: underline;
+}
+
+.butsquare { /*-----------------------BOUTONS*/
+	border-radius: 0%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: transparent;
+	color: black;
+}
+
+.butsquare:hover {
+	border-radius: 0%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: blue;
+	color: white;
+}
+
+
+.butround {
+	border-radius: 10%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: transparent;
+	color: black;
+}
+
+.butround:hover {
+	border-radius: 0%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: blue;
+	color: white;
+}
+
+.txt-right { /*----------------------TEXTE*/
+	text-align: right;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.txt-left {
+	text-align: left;
+}
+
+.txt-just {
+	text-align: justify;
+}
+
+.txt-lowcase {
+ text-transform: lowercase;
+}
+.txt-upcase {
+ text-transform: uppercase;
+}
+
+.img-round { /*-------------------------IMAGES*/
+	border-radius: 50px;
+}
+
+/*------------------------------------------------------FIN PARTIE OUTILS-----------------------------------
+------------------------------------------------------------------------------------------------------------*/
