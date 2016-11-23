@@ -1,8 +1,7 @@
-#main_nav {
+.main_nav {
     width: 100%;
 }
 .vert-nav {
-    list-style-type: none;
     width: 100%;
     position: absolute;
     display: flex;
@@ -12,7 +11,7 @@
 .vert-nav li {
     flex: 1;
 }
-.nav-a {
+.vert-nav li a {
     height: 50px;
     line-height: 50px;
     color: #fff;
@@ -21,19 +20,19 @@
     justify-content: center;
     margin-bottom: 1px;
 }
-li:hover .nav-a {
+.nav-cat:hover a {
     background-color: #aaaaaa;
     color: black;
 }
 /*Pour avoir un menu déroulant cliquable : indenter une ul class="hidden" dans li class="vis-a-nav"*/
-li:hover .hid-nav-a {
+.nav-cat:hover ul a {
     background-color: #aaaaaa;
     color: #2f3036;
     height: 40px;
     line-height: 40px;
 }
 /*Style liens menu déroulant survolés*/
-li:hover .hid-nav-a:hover {
+.nav-cat:hover ul a:hover {
     background-color: #e2575e;
 }
 /*Cache menu déroulant*/
@@ -60,7 +59,7 @@ input[type=checkbox]:checked~.vert-nav {
 }
 /*-----MEDIA QUERIES-----*/
 @media screen and (max-width: 760px) {
-    .nav-a {
+    .nav-cat, .nav-cat a {
         width: 100%;
     }
     .show-menu {
