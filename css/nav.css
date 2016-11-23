@@ -4,7 +4,6 @@
 .vert-nav {
     list-style-type: none;
     width: 100%;
-    position: absolute;
     display: flex;
     margin: 0;
     padding: 0;
