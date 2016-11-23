@@ -20,23 +20,23 @@
     justify-content: center;
     margin-bottom: 1px;
 }
-li:hover a {
+.nav-cat:hover a {
     background-color: #aaaaaa;
     color: black;
 }
 /*Pour avoir un menu déroulant cliquable : indenter une ul class="hidden" dans li class="vis-a-nav"*/
-li:hover ul a {
+.nav-cat:hover ul a {
     background-color: #aaaaaa;
     color: #2f3036;
     height: 40px;
     line-height: 40px;
 }
 /*Style liens menu déroulant survolés*/
-li:hover ul a:hover {
+.nav-cat:hover ul a:hover {
     background-color: #e2575e;
 }
 /*Cache menu déroulant*/
-li ul {
+.hid_ul {
     display: none;
 }
 /*Affiche menu déroulant*/
@@ -59,7 +59,7 @@ input[type=checkbox]:checked~.vert-nav {
 }
 /*-----MEDIA QUERIES-----*/
 @media screen and (max-width: 760px) {
-    ul li, li a {
+    .nav-cat, .nav-cat a {
         width: 100%;
     }
     .show-menu {
