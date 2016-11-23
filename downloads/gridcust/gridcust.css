@@ -23,6 +23,9 @@ img {
 /*Grand-child*/
 .col {
   flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+ 
   /*separation*/
   padding: 2vh/*10px*/;
   margin: 2vh/*10px*/;/*le plus important*/
@@ -46,5 +49,7 @@ img {
   }
   .col {
     flex: 1 1 40%;
+    -webkit-flex: 1 1 40%;
+    -ms-flex: 1 1 40%;
   }
 }
