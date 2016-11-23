@@ -238,3 +238,18 @@ li.list .drop-list a {
 .pagination > li >a:active {
 
 }
+
+@media screen and (max-width: 800px) {
+
+	.pagination > li > a {
+		display: flex;
+		padding: 25%;
+		flex-wrap: nowrap;
+	}
+
+	.container-column, .container {
+		margin: 0;
+	}
+
+
+}
