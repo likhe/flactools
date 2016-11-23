@@ -296,32 +296,24 @@ input[type=checkbox]:checked~.vert-nav {
 	border: 2px outset black;
 }
 
-.h1 { /*---------------------------------TITRES*/
+h1 { /*---------------------------------TITRES*/
 	font-size: 5em;
 	font-family: sans-serif;
 }
 
-.h2 {
+h2 {
 	font-size: 2em;
 	font-family: sans-serif;
 }
 
-.h3 {
+h3 {
 	font-size: 1.5em;
 	font-family: sans-serif;
 }
 
-.h4 {
+h4 {
 	font-size: 1em;
 	font-family: sans-serif;
-}
-
-.a { /*---------------------------------LIENS*/
-	background-color: transparent;
-}
-
-.a:hover {
-	text-decoration: underline;
 }
 
 .butsquare { /*-----------------------BOUTONS*/
@@ -378,6 +370,10 @@ input[type=checkbox]:checked~.vert-nav {
 }
 .txt-upcase {
  text-transform: uppercase;
+}
+
+.txt-underline {
+  text-decoration: underline;
 }
 
 .img-round { /*-------------------------IMAGES*/
