@@ -1,0 +1,117 @@
+.no-mg : no margin => pas de marge
+
+.mg-s : margin s => marge de petite taille
+
+.mg-m : margin m => marge de taille moyenne
+
+.mg-l :margin l => marge de grande taille
+
+.mg-xl : margin xl => marge de très grande taille
+
+.mgt-s : margin-top s => marge du haut de petite taille
+
+.mgt-m : margin-top m => marge du haut de taille moyenne
+
+.mgt-l : margin-top l => marge du haut de grande taille 
+
+.mgt-xl : margin-top xl => marge du haut de très grande taille 
+
+.mgb-s : margin-bottom s => marge du bas de petite taille 
+
+.mgb-m : margin-bottom m => marge du bas de taille moyenne
+
+.mgb-l : margin-bottom l => marge du bas de grande taille
+
+.mgb-xl: margin-bottom xl => marge du bas de très grande taille
+
+.mgl-s : margin-left s  => marge de gauche de petite taille
+
+.mgl-m : margin-left m  => marge de gauche de taille moyenne
+
+.mgl-l : margin-left l  => marge de gauche de grande taille
+
+.mgl-xl : margin-left xl  => marge de gauche de très grande taille
+
+.mgr-s : margin-right s  => marge de droite de petite taille
+
+.mgr-m : margin-right m  => marge de droite de taille moyenne
+
+.mgr-l : margin-right l  => marge de droite de grande taille 
+
+.mgr-xl : margin-right xl  => marge de droite de très grande taille
+
+.pdg-s : padding s => padding de petite taille
+
+.pdg-m : padding m => padding de taille moyenne
+
+.pdg-l : padding l => padding de grande taille
+
+.pdgt-s : padding-top s => padding du haut de petite taille
+
+.pdgt-m : padding-top m => padding du haut de taille moyenne
+
+.pdgt-l : padding-top l => padding du haut de grande taille
+
+.pdgb-s : padding-bottom s => padding du bas de petite taille
+
+.pdgb-m : padding-bottom m => padding du bas de taille moyenne
+
+.pdgb-l : padding-bottom l => padding du bas de grande taille
+
+.pdgl-s : padding-left s => padding de gauche de petite taille
+
+.pdgl-m : padding-left m => padding de gauche de taille moyenne
+
+.pdgl-l : padding-left l => padding de gauche de grande taille
+
+.pdgr-s : padding-right s => padding de droite de petite taille
+
+.pdgr-m : padding-right m => padding de droite de taille moyenne
+
+.pdgr-l : padding-right l => padding de droite de grande taille
+
+.wid-xl : width xl 
+
+.wid-l : width l
+
+.wid-m : width m
+
+.wid-s : width s
+
+.bord-sol : border solid => bordure à trait plein
+
+.bord-dot : border dotted => bordure à pointillés
+
+.bord-dash : border dashed => bordure à tirets
+
+.bord-in : border inset => bordure effet 3D
+
+.bord-out : border outset => bordure effet 3D
+
+.h1 
+
+.h2 
+
+.h3 
+
+.h4 
+
+.a 
+
+.butsquare : button square => bouton carré
+
+.butround : button round => bouton arrondi
+
+.txt-right : texte aligné à droite
+
+.txt-center : texte aligné au centre
+
+.txt-left : texte aligné à gauche
+
+.txt-just : texte justifié
+
+.txt-lowcase : texte en minuscules
+
+.txt-upcase : texte en majuscules
+
+.img-round : image arrondie
