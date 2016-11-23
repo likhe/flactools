@@ -243,8 +243,12 @@ li.list .drop-list a {
 
 	.pagination > li > a {
 		display: flex;
+	  display: -webkit-flex;
+		display: -ms-flex;
 		padding: 25%;
 		flex-wrap: nowrap;
+		-webkit-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
 	}
 
 	.container-column, .container {
@@ -259,7 +263,7 @@ li.list .drop-list a {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
-	height: 200px;
+	height: 100px;
 	background: #aaa;
 	border: 2px solid blue;
 }

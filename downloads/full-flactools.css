@@ -1,0 +1,462 @@
+/*-----------RESET-----------*/
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p,
+a, img, section, article, footer, header, nav {
+  margin : 0 ;
+  padding : 0 ;
+  border : 0 ;
+}
+body {
+  font-family: lato, sans-serif;
+  font-size: 1em;
+  line-height:1;
+  height: 100%;
+  width: 100%;
+}
+h2, h3, h4, h5, h6, p {
+  margin-bottom: 0.5em;
+}
+ol, ul {
+	list-style: none;
+}
+a , a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+div {
+  box-sizing: border-box;
+}
+img {
+  border: none;
+}
+.img-round {
+  border-radius: 7px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+/*-----------NAV-----------*/
+#main_nav {
+    width: 100%;
+}
+.vert-nav {
+    list-style-type: none;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.vert-nav li {
+    flex: 1;
+}
+.nav-a {
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #2f3036;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+li:hover .nav-a {
+    background-color: #aaaaaa;
+    color: black;
+}
+/*Pour avoir un menu déroulant cliquable : indenter une ul class="hidden" dans li class="vis-a-nav"*/
+li:hover .hid-nav-a {
+    background-color: #aaaaaa;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+/*Style liens menu déroulant survolés*/
+li:hover .hid-nav-a:hover {
+    background-color: #e2575e;
+}
+/*Cache menu déroulant*/
+.hid_ul {
+    display: none;
+}
+/*Affiche menu déroulant*/
+ul li a:hover+.hid_ul, .hid_ul:hover {
+    display: block;
+    padding: 0;
+}
+/*Bouton menu responsif--Ajoutez un <label for="show-menu" class="show-menu"> & <input type="checkbox" id="show-menu" role="button"> dans votre DOM*/
+input[type=checkbox], .show-menu {
+    display: none;
+}
+.show-menu {
+    color: #fff;
+    background-color: #2f3036;
+    text-align: center;
+    padding: 10px 0;
+}
+input[type=checkbox]:checked~.vert-nav {
+    display: block;
+}
+/*-----MEDIA QUERIES-----*/
+@media screen and (max-width: 760px) {
+    .nav-a {
+        width: 100%;
+    }
+    .show-menu {
+        display: block;
+    }
+    .vert-nav {
+        display: none;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------
+------------------------------------------PARTIE OUTILS--------------------------------------*/
+
+.no-mg {
+	margin: 0;
+}
+
+.mg-s { /*------------------------MARGIN*/
+	margin: 0.5%;
+}
+
+.mg-m {
+	margin: 2%;
+}
+
+.mg-l {
+	margin: 7%;
+}
+
+.mg-xl {
+	margin: 15%;
+}
+
+.mgt-s {/*--------------------------MARGIN TOP*/
+	margin-top: 0.5%;
+}
+
+.mgt-m {
+	margin-top: 2%;
+}
+
+.mgt-l {
+	margin-top: 5%;
+}
+
+.mgt-xl {
+	margin-top: 10%;
+}
+
+.mgb-s {/*--------------------------MARGIN BOTTOM*/
+	margin-bottom: 0.5%;
+}
+
+.mgb-m {
+	margin-bottom: 2%;
+}
+
+.mgb-l {
+	margin-bottom: 5%;
+}
+
+.mgb-xl {
+	margin-bottom: 10%;
+}
+
+.mgl-s {/*---------------------------MARGIN LEFT*/
+	margin-left: 0.5%;
+}
+
+.mgl-m {
+	margin-left: 2%;
+}
+
+.mgl-l {
+	margin-left: 5%;
+}
+
+.mgl-xl {
+	margin-left: 10%;
+}
+
+.mgr-s {/*----------------------------MARGIN RIGHT*/
+	margin-right: 0.5%;
+}
+
+.mgr-m {
+	margin-right: 2%;
+}
+
+.mgr-l {
+	margin-right: 5%;
+}
+
+.mgr-xl {
+	margin-right: 10%;
+}
+
+.pdg-s { /*----------------------------PADDING*/
+	padding: 0.5%;
+}
+
+.pdg-m {
+	padding: 2%;
+}
+
+.pdg-l {
+	padding: 4%;
+}
+
+.pdgt-s { /*----------------------------PADDING TOP*/
+	padding-top: 0.5%;
+}
+
+.pdgt-m {
+	padding-top: 2%;
+}
+
+.pdgt-l {
+	padding-top: 4%;
+}
+
+.pdgb-s { /*----------------------------PADDING BOTTOM*/
+	padding-bottom: 0.5%;
+}
+
+.pdgb-m {
+	padding-bottom: 2%;
+}
+
+.pdgb-l {
+	padding-bottom: 4%;
+}
+
+.pdgl-s { /*------------------------------PADDING LEFT*/
+	padding-left: 0.5%;
+}
+
+.pdgl-m {
+	padding-left: 2%;
+}
+
+.pdgl-l {
+	padding-left: 4%;
+}
+
+.pdgr-s { /*------------------------------PADDING RIGHT*/
+	padding-right: 0.5%;
+}
+
+.pdgr-m {
+	padding-right: 2%;
+}
+
+.pdgr-l {
+	padding-right: 4%;
+}
+
+.wid-xl { /*------------------------------WIDTH*/
+	width: 100%;
+}
+
+.wid-l {
+	width: 70%;
+}
+
+.wid-m {
+	width: 50%;
+}
+
+.wid-s {
+	width: 30%;
+}
+
+.bord-sol { /*-----------------------------BORDERS*/
+	border: 2px solid black;
+}
+
+.bord-dot {
+	border: 2px dotted black;
+}
+
+.bord-dash {
+	border: 2px dashed black;
+}
+
+.bord-in {
+	border: 2px inset black;
+}
+
+.bord-out {
+	border: 2px outset black;
+}
+
+.h1 { /*---------------------------------TITRES*/
+	font-size: 5em;
+	font-family: sans-serif;
+}
+
+.h2 {
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.h3 {
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+
+.h4 {
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+.a { /*---------------------------------LIENS*/
+	background-color: transparent;
+}
+
+.a:hover {
+	text-decoration: underline;
+}
+
+.butsquare { /*-----------------------BOUTONS*/
+	border-radius: 0%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: transparent;
+	color: black;
+}
+
+.butsquare:hover {
+	border-radius: 0%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: blue;
+	color: white;
+}
+
+
+.butround {
+	border-radius: 10%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: transparent;
+	color: black;
+}
+
+.butround:hover {
+	border-radius: 0%;
+	padding: 1% 1.5% 1% 1.5%;
+	border: 2px solid black;
+	background-color: blue;
+	color: white;
+}
+
+.txt-right { /*----------------------TEXTE*/
+	text-align: right;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.txt-left {
+	text-align: left;
+}
+
+.txt-just {
+	text-align: justify;
+}
+
+.txt-lowcase {
+ text-transform: lowercase;
+}
+.txt-upcase {
+ text-transform: uppercase;
+}
+
+.img-round { /*-------------------------IMAGES*/
+	border-radius: 50px;
+}
+
+/*------------------------------------------------------FIN PARTIE OUTILS-----------------------------------
+------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------Début de la grid----------------------*/
+* {
+  margin: 0;
+
+}
+img {
+  width: 100%;
+ }
+/*Parent*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  min-height: 100vh /*462px*/;
+}
+/*Child*/
+.row {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-direction: wrap;
+  -ms-flex-direction: wrap;
+  margin: 2vh /*10px*/;
+}
+/*Grand-child*/
+.col {
+  flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+
+  /*separation*/
+  padding: 2vh/*10px*/;
+  margin: 2vh/*10px*/;/*le plus important*/
+}
+/*Optionnal*/
+.col {
+  color: white;
+  background-color: pink;
+}
+@media only screen and (min-width:376px) and (max-width:768px) {
+  .row {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 375px) {
+  .row {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+  .col {
+    flex: 1 1 40%;
+    -webkit-flex: 1 1 40%;
+    -ms-flex: 1 1 40%;
+  }
+}
+/*--------------------Fin de la grid-------------------------------*/
