@@ -1,0 +1,23 @@
+.container_abs {
+  position: absolute;
+}
+
+.pos_rtv {
+  position: relative;
+}
+
+.pos_fx {
+  position: fixed;
+}
+
+.btn_fx {
+  position: fixed;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
