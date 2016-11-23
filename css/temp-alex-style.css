@@ -2,6 +2,7 @@
 .container_intro {
     position: absolute;
     margin-top: 10%;
+    width: 100%;
 }
 .intro_nav { /*xxPas Frameworkxx*/
   background-color: rgba(170, 170, 170, 0.5);/*Exemple background transparent*/
