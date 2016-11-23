@@ -72,8 +72,19 @@
                     </ul>
                 </nav>
             </div>
-            <p><strong>Structure HTML:</strong></p>
-            <p>Votre DOM doit inclure une &lt;nav id="main-nav"&gt; dans laquelle vous integrerez une liste &lt;ul&gt; blablablabla  </p>
+            <div id="alex-div-nav">
+                <p><strong>Structure HTML:</strong></p>
+                <p>Votre DOM doit inclure une &lt;nav id="main-nav"&gt; dans laquelle vous integrerez :
+                    <ul id="alex-list">
+                        <li>- Une liste &lt;ul class="vert-nav"&gt; </li>
+                        <li>- Autant de balises &lt;li class="nav-cat"&gt; que vous voulez ! </li>
+                        <li>-->Pour inclure une sous partie, indentez une &lt;ul class="hid_ul"&gt; </li>
+                    </ul>
+                    <p>Pour rendre votre nav belle sur tous les écrans ajoutez ceci au début de votre .main-nav :</p>
+                    <p>&lt;label for="show-menu" class="show-menu"&gt;<i>Menu</i>&lt;/label&gt;</p>
+                    <p>&lt;input type="checkbox" id="show-menu" role="button"&gt;</p>
+                </p>
+            </div>
 
         </article>
     </section>
