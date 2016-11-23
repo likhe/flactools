@@ -88,16 +88,6 @@
 
 .bord-out : border outset => bordure effet 3D
 
-.h1 
-
-.h2 
-
-.h3 
-
-.h4 
-
-.a 
-
 .butsquare : button square => bouton carré
 
 .butround : button round => bouton arrondi
@@ -113,5 +103,7 @@
 .txt-lowcase : texte en minuscules
 
 .txt-upcase : texte en majuscules
+
+.txt-underline : texte surligné
 
 .img-round : image arrondie
