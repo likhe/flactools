@@ -1,7 +1,7 @@
 #main_nav {
     width: 100%;
 }
-.vertical_nav {
+.vert-nav {
     list-style-type: none;
     width: 100%;
     position: absolute;
@@ -9,38 +9,39 @@
     margin: 0;
     padding: 0;
 }
-.vertical_nav li {
+.vert-nav li {
     flex: 1;
 }
-li a {
+.nav-a {
     height: 50px;
     line-height: 50px;
     color: #fff;
     background-color: #2f3036;
     display: flex;
     justify-content: center;
+    margin-bottom: 1px;
 }
-li:hover a {
+li:hover .nav-a {
     background-color: #aaaaaa;
     color: black;
 }
-/*Liens Toggle*/
-li:hover ul a {
+/*Pour avoir un menu déroulant cliquable : indenter une ul class="hidden" dans li class="vis-a-nav"*/
+li:hover .hid-nav-a {
     background-color: #aaaaaa;
     color: #2f3036;
     height: 40px;
     line-height: 40px;
 }
-/*Hover liens Toggle*/
-li:hover ul a:hover {
+/*Style liens menu déroulant survolés*/
+li:hover .hid-nav-a:hover {
     background-color: #e2575e;
 }
-/*Cache liens Toggle*/
-li ul {
+/*Cache menu déroulant*/
+.hid_ul {
     display: none;
 }
-/*Permet affichage liens Toggle*/
-ul li a:hover+.hidden, .hidden:hover {
+/*Affiche menu déroulant*/
+ul li a:hover+.hid_ul, .hid_ul:hover {
     display: block;
     padding: 0;
 }
@@ -54,25 +55,18 @@ input[type=checkbox], .show-menu {
     text-align: center;
     padding: 10px 0;
 }
-input[type=checkbox]:checked~.menu {
+input[type=checkbox]:checked~.vert-nav {
     display: block;
 }
 /*-----MEDIA QUERIES-----*/
 @media screen and (max-width: 760px) {
-    ul {
-        position: static;
-        display: none;
-    }
-    li {
-        margin-bottom: 1px;
-    }
-    ul li, li a {
+    .nav-a {
         width: 100%;
     }
     .show-menu {
         display: block;
     }
-    .menu {
+    .vert-nav {
         display: none;
     }
 }
