@@ -2,10 +2,11 @@
 .container_intro {
     position: absolute;
     margin-top: 10%;
+    width: 100%;
 }
 .intro_nav { /*xxPas Frameworkxx*/
   background-color: rgba(170, 170, 170, 0.5);/*Exemple background transparent*/
-  padding: 15px;
+  padding: 5%;
   text-align: center;
 }
 /*Modèle homepage bloc dégradé couleur+bloc pleine page--Ajout framework ?*/
@@ -23,7 +24,7 @@
   display: block;
   color: white;
 }
-.fullhomelogo { /*xxPas Frameworkxx*/
+.fullhomelogo {
   font-size: 5em;
   color: white;
   border: 4px solid white;
@@ -57,4 +58,16 @@
 .button_link:hover {
   color: #4b4b51;
 }
-/*--*/
+/*Media Queries*/
+@media screen and (max-width: 760px) {
+  .container_intro {
+    margin-top: 25%;
+  }
+  .fullhomelogo { /*xxPas Frameworkxx*/
+    font-size: 2.5em;
+  }
+  .neutral_button {
+      margin-top: 20px;
+      width: 25%;
+    }
+}

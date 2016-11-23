@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Flactools - Responsive nav</title>
+    <title>Flactools - Boîte à outils</title>
     <link rel="stylesheet" href="css/reset.css" media="screen">
     <link rel="stylesheet" href="css/nav.css" media="screen">
     <link rel="stylesheet" href="css/style-header-footer.css" media="screen">
@@ -20,24 +20,23 @@
             <a href="index.html"><h1>Welcome to <span class="f_logo">F</span>lactools !</h1></a>
         </header>
 
-        <nav>
-            <label for="show-menu" class="show-menu">Menu</label>
-            <input type="checkbox" id="show-menu" role="button">
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Boutons ￬</a>
-                    <ul class="hidden">
-                        <li><a href="#">Bords 90°</a></li>
-                        <li><a href="#">Bords arrondis</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Grid</a></li>
-                <li><a href="#">Positionnements</a></li>
-                <li><a href="outils.html">Outils pratiques</a></li>
-                <li><a href="nav.html">Nav responsive</a></li>
-                <li><a href="reset.html">Reset</a></li>
-            </ul>
-        </nav>
+        <nav id="main_nav">
+    			<label for="show-menu" class="show-menu">Menu</label>
+    			<input type="checkbox" id="show-menu" role="button">
+    			<ul class="vert-nav">
+    				<li><a class="vis-a-nav nav-a" href="index.html">Home</a></li>
+    				<li><a class="vis-a-nav nav-a" href="#">Grid ￬</a>
+    					<ul class="hid_ul">
+    						<li><a class="hid-nav-a nav-a" href="grid.html">Grid simple</a></li>
+    						<li><a class="hid-nav-a nav-a" href="grid_plus.html">Grid +</a></li>
+    						<li><a class="hid-nav-a nav-a" href="positions.html">Positionnements</a></li>
+    					</ul>
+    				</li>
+    				<li><a class="vis-a-nav nav-a" href="outils.html">Outils pratiques</a></li>
+    				<li><a class="vis-a-nav nav-a" href="nav.html">Nav responsive</a></li>
+    				<li><a class="vis-a-nav nav-a" href="reset.html">Reset</a></li>
+    			</ul>
+    		</nav>
     </div>
 
     <section class="container_intro intro_nav">
@@ -47,7 +46,7 @@
               irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </article>
         <div id="flex_neutral_button">
-            <div class="neutral_button"><a class="button_link" href="downloads/full_download/flactools_outils" download="flactools_outils"><strong>.zip</strong></a></div>
+            <div class="neutral_button"><a class="button_link" href="downloads/flactools_outils.zip" download="flactools_outils"><strong>.zip</strong></a></div>
         </div>
     </section>
 

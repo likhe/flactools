@@ -1,3 +1,44 @@
+/*-----------RESET-----------*/
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p,
+a, img, section, article, footer, header, nav {
+  margin : 0 ;
+  padding : 0 ;
+  border : 0 ;
+}
+body {
+  font-family: lato, sans-serif;
+  font-size: 1em;
+  line-height:1;
+  height: 100%;
+  width: 100%;
+}
+h2, h3, h4, h5, h6, p {
+  margin-bottom: 0.5em;
+}
+ol, ul {
+	list-style: none;
+}
+a , a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+div {
+  box-sizing: border-box;
+}
+img {
+  border: none;
+}
+.img-round {
+  border-radius: 7px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
 /*-----------NAV-----------*/
 #main_nav {
     width: 100%;
