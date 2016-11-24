@@ -42,13 +42,30 @@
     <section class="container_intro intro_nav">
         <article>
             <h2>Téléchargez notre Grid responsive :</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>Mode d'emploi</h3>
+            <p>Le grid simple est une grille responsive par défaut. Un allié de poids pour un design harmonieux et ergonomique sans prise de tête. Suivez les instructions en bas du bouton de téléchargement.</p>
         </article>
         <div id="flex_neutral_button">
             <div class="neutral_button"><a class="button_link" href="downloads/gridcust.zip" download="gridcust"><strong>.zip</strong></a></div>
-        </div>
-    </section>
+        </div><br/>
+        <p>Tout d'abord, activez le media query sur votre HTML.</p>
+        <p>Par exemple</p>
+        <img src="images/meta_media.png" alt="meta_media" title="Il permet de demander à ce que le viewport soit le même que la largeur de l'écran sans zoom"/><br/>
+        <p>Puis, construisez l'ossature de votre HTML.</p>
+        <p>La construction de votre squelette se fait en 3 étapes:</p>
+        <p>1. Construisez votre div class qui va servir à contenir les autres div.</p>
+        <img src="images/div_wrapper.png" alt="div_wrapper" title='Votre div "wrapper" est votre base pour la div "row" et la div "column"'/><br>
+        <p>Nommez le nom de la class de votre div conteneur wrapper: <&nbsp;div class="wrapper"&nbsp;>.</p>
+        <p>2. Dans votre  <img src="images/div_wrapper.png" alt="div_wrapper" title='La div "row" se trouve dans la div "wrapper"'/>, ajoutez une div ligne de cette manière.</p>
+        <img src="images/div_row.png" alt="div_row"/><br>
+        <p>Nommez le nom de la class de votre div ligne row: <&nbsp;div class="row"&nbsp;>.</p>
+        <p>3. Dans votre <img src="images/div_row.png" alt="div_row"/>, ajoutez une div colonne: <&nbsp;div class="column"&nbsp;> de cette manière.</p>
+        <img src="images/row_for_a_column.png" alt="row_for_a_column" title='La div "column" est à dans la div "row"'/>
+        <p>Enchaînez plusieurs colonnes pour adapter votre structure. Sur cet extrait en dessous, vous obtenez 5 colonnes sur une ligne.</p>
+        <img src="images/row_for_five_columns.png" alt="row_for_five_columns" title='5 div colonnes dans une div '>
+        <p>Nommez les div ainsi vous servira à activer le grid simple s'en charge.</p>
+        <p>Ainsi, il est inutile de faire une page css pour structurer votre gabarit puisque c'est déjà prêt!</p>
+      </section>
 
 </body>
 
