@@ -60,6 +60,7 @@ input[type=checkbox]:checked~.vert-nav {
 @media screen and (max-width: 760px) {
     .nav-a {
         width: 100%;
+        margin-bottom: 1px;
     }
     .show-menu {
         display: block;
