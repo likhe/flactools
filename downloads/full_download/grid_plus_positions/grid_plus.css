@@ -1,0 +1,274 @@
+body {
+	margin:0;
+}
+
+*{
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.header-horizontal {
+	position: relative;
+	display: flex;
+	margin-bottom: 10px;
+	height: 67px;
+	background-color: blue;
+}
+.header-vertical {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background-color: blue;
+}
+.navbar-default {
+	display: flex;
+	align-items: center;
+	background-color: #3c3a3a;
+	height: 100%;
+	width: auto;
+}
+.header-vertical .navbar-default {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+.header-vertical .navbar-default li {
+	flex: 1;
+}
+.header-vertical + .container-column {
+	width: 100%;
+	margin-left: 13%;
+}
+.navbar-default li a{
+	padding: 25px;
+	width: auto;
+	text-align: center;
+	color: white;
+}
+.navbar-default li {
+	text-align: center;
+}
+.navbar-default li:hover a{
+	background-color: black;
+	transition: background-color 0.5s;
+}
+.navbar-default li:active a{
+	background-color: green;
+}
+.nav-top-fix {
+  position: fixed;
+}
+.navbar-center {
+	justify-content: center;
+}
+.navbar-large-white {
+	width: 100%;
+}
+.navbar-small-black {
+	background-color: black;
+}
+.navbar-large-black {
+	width: 100%;
+	color: white;
+	background-color: black;
+}
+.navbar-large-white li,
+.navbar-large-black li {
+	flex: 1;
+}
+.navbar-large-black li a,
+.navbar-small-black li a {
+	color: white;
+}
+.navbar-large-black li:hover a,
+.navbar-small-black li:hover a {
+	color: white;
+	background-color: grey;
+	transition: background-color 0.5s, color 0.5s;
+}
+.navbar-large-black li:active a,
+.navbar-small-black li:active a {
+	background-color: blue;
+}
+.navbar-large-white li a,
+.navbar-small-white li a {
+	color: black;
+	background-color: white;
+}
+.navbar-large-white li:hover a,
+.navbar-small-white li:hover a {
+	color: white;
+	background-color: black;
+	transition: background-color 0.5s, color 0.5s ;
+}
+.navbar-large-white li:active a,
+.navbar-small-white li:active a {
+	background-color: blue;
+}
+.list {
+	position: relative;
+    display: inline-block;
+}
+.list a {
+	display: inline-block;
+}
+.list:hover .drop-list {
+	display: inline-block;
+	box-shadow: 2px 8px 16px 5px rgba(0,0,0,0.2);
+}
+
+li.list .drop-list a {
+	display: block;
+	padding: 15px;
+	text-align: left;
+}
+.navbar-large-white .list .drop-list a,
+.navbar-small-white .list .drop-list a {
+	color: black;
+	background-color: white;
+}
+.navbar-large-white .list .drop-list a:hover,
+.navbar-small-white .list .drop-list a:hover {
+	color: white;
+	background-color: black;
+	transition: background-color 0.5s, color 0.5s ;
+}
+.navbar-large-black .list .drop-list a,
+.navbar-small-black .list .drop-list a {
+	color: white;
+	background-color: black;
+}
+.navbar-large-black .list .drop-list a:hover,
+.navbar-small-black .list .drop-list a:hover {
+	color: white;
+	background-color: grey;
+	transition: background-color 0.5s;
+}
+.drop-list {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+}
+
+.container-column {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	margin: 0 50px;
+}
+.container {
+	display: flex;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row {
+	display: flex;
+	width: 100%;
+}
+.col-beauty {
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px black;
+	background: radial-gradient(circle, white , #eee 40%, #ddd 100%);
+	padding: 10px;
+	height: 400px;
+}
+.col-1 {
+	flex: 1;
+	margin: 5px;
+}
+.col-2 {
+	flex: 2;
+	margin: 5px;
+}
+.col-3 {
+	flex: 3;
+	margin: 5px;
+}
+.col-4 {
+	flex: 4;
+	margin: 5px;
+}
+.col-5 {
+	flex: 5;
+	margin: 5px;
+}
+.col-marg-1 {
+	margin-left: 20%;
+}
+.col-marg-2 {
+	margin-left: 40%;
+}
+.col-marg-3 {
+	margin-left: 60%;
+}
+.col-marg-4 {
+	margin-left: 80%;
+}
+.col-marg-5 {
+	margin-left: 100%;
+}
+.pagination {
+	display: flex;
+	margin: 10px auto;
+	border-radius: 4px;
+	width: auto;
+}
+.pagination > li {
+  display: block-inline;
+}
+.pagination > li > a {
+	padding: 6px 12px;
+	color: red;
+	background-color: #fff;
+    border: 1px solid #ddd;
+	text-shadow: 1px 1px 2px red;
+}
+.pagination > li >a:hover
+ {
+	color: #23527c;
+	background-color: #eee;
+	border-color: #ddd;
+}
+.pagination > li >a:active {
+
+}
+
+@media screen and (max-width: 800px) {
+
+	.pagination > li > a {
+		display: flex;
+	  display: -webkit-flex;
+		display: -ms-flex;
+		padding: 25%;
+		flex-wrap: nowrap;
+		-webkit-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
+	}
+
+	.container-column, .container {
+		margin: 0;
+	}
+
+}
+
+.footlose {
+	box-sizing: border-box;
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 100px;
+	background: #aaa;
+	border: 2px solid blue;
+}
+
+.footlose > div {
+	color: blue;
+
+}

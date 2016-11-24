@@ -1,0 +1,95 @@
+.pos_abs {
+  position: absolute;
+}
+
+.pos_rtv {
+  position: relative;
+}
+
+.pos_fx {
+  position: fixed;
+}
+
+.pos_stat {
+  position: static;
+}
+
+.btn_fx {
+  position: fixed;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.flex_co {
+  flex-direction: column;
+}
+
+.flex_cor {
+  flex-direction: column-reverse;
+}
+
+.flex_r {
+  flex-direction: row;
+}
+
+.flex_rr {
+  flex-direction: row-reverse;
+}
+
+.flex_w {
+  flex-wrap: wrap;
+}
+
+.flex_nw {
+  flex-wrap: nowrap;
+}
+
+.zi1 {
+  z-index: 1;
+}
+
+.zi2 {
+  z-index: 2;
+}
+
+.zi3 {
+  z-index: 3;
+}
+
+.clearf {
+  overflow: auto;
+}
+
+.DIB {
+  display: inline-block;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+.normal {
+  font-style: normal;
+}
+
+.S {
+  font-size: 16px;
+}
+
+.M {
+  font-size: 30px;
+}
+
+.L {
+  font-size: 40px;
+}
