@@ -21,22 +21,22 @@
         </header>
 
         <nav id="main_nav">
-    			<label for="show-menu" class="show-menu">Menu</label>
-    			<input type="checkbox" id="show-menu" role="button">
-    			<ul class="vert-nav">
-    				<li><a class="vis-a-nav nav-a" href="index.html">Home</a></li>
-    				<li><a class="vis-a-nav nav-a" href="#">Grid ￬</a>
-    					<ul class="hid_ul">
-    						<li><a class="hid-nav-a nav-a" href="grid.html">Grid simple</a></li>
-    						<li><a class="hid-nav-a nav-a" href="grid_plus.html">Grid +</a></li>
-    						<li><a class="hid-nav-a nav-a" href="positions.html">Positionnements</a></li>
-    					</ul>
-    				</li>
-    				<li><a class="vis-a-nav nav-a" href="outils.html">Outils pratiques</a></li>
-    				<li><a class="vis-a-nav nav-a" href="nav.html">Nav responsive</a></li>
-    				<li><a class="vis-a-nav nav-a" href="reset.html">Reset</a></li>
-    			</ul>
-    		</nav>
+            <label for="show-menu" class="show-menu">Menu</label>
+            <input type="checkbox" id="show-menu" role="button">
+            <ul class="vert-nav">
+                <li><a class="vis-a-nav nav-a" href="index.html">Home</a></li>
+                <li><a class="vis-a-nav nav-a" href="#">Grid ￬</a>
+                    <ul class="hid_ul">
+                        <li><a class="hid-nav-a nav-a" href="grid.html">Grid simple</a></li>
+                        <li><a class="hid-nav-a nav-a" href="grid_plus.html">Grid +</a></li>
+                        <li><a class="hid-nav-a nav-a" href="positions.html">Positionnements</a></li>
+                    </ul>
+                </li>
+                <li><a class="vis-a-nav nav-a" href="outils.html">Outils pratiques</a></li>
+                <li><a class="vis-a-nav nav-a" href="nav.html">Nav responsive</a></li>
+                <li><a class="vis-a-nav nav-a" href="reset.html">Reset</a></li>
+            </ul>
+        </nav>
     </div>
 
     <section class="container_intro intro_nav">
@@ -49,23 +49,62 @@
             <div class="neutral_button"><a class="button_link" href="downloads/gridcust.zip" download="gridcust"><strong>.zip</strong></a></div>
         </div><br/>
         <p>Tout d'abord, activez le media query sur votre HTML.</p>
-        <p>Par exemple</p>
-        <img src="images/meta_media.png" alt="meta_media" title="Il permet de demander à ce que le viewport soit le même que la largeur de l'écran sans zoom"/><br/>
+        <figure class="step">
+            <code class="language-html" data-lang="html">
+              &lt;<span class="orange">meta</span> <span class="lime">name</span> = <span>"viewport"</span> <span class="orange">content=</span><span class="lime"> "width=device-width"</span>/&gt;
+            </code>
+        </figure>
         <p>Puis, construisez l'ossature de votre HTML.</p>
         <p>La construction de votre squelette se fait en 3 étapes:</p>
         <p>1. Construisez votre div class qui va servir à contenir les autres div.</p>
-        <img src="images/div_wrapper.png" alt="div_wrapper" title='Votre div "wrapper" est votre base pour la div "row" et la div "column"'/><br>
-        <p>Nommez le nom de la class de votre div conteneur wrapper: <&nbsp;div class="wrapper"&nbsp;>.</p>
-        <p>2. Dans votre  <img src="images/div_wrapper.png" alt="div_wrapper" title='La div "row" se trouve dans la div "wrapper"'/>, ajoutez une div ligne de cette manière.</p>
-        <img src="images/div_row.png" alt="div_row"/><br>
-        <p>Nommez le nom de la class de votre div ligne row: <&nbsp;div class="row"&nbsp;>.</p>
-        <p>3. Dans votre <img src="images/div_row.png" alt="div_row"/>, ajoutez une div colonne: <&nbsp;div class="column"&nbsp;> de cette manière.</p>
-        <img src="images/row_for_a_column.png" alt="row_for_a_column" title='La div "column" est à dans la div "row"'/>
+        <figure class="step">
+            <code class="language-html" data-lang="html">
+              &lt;<span class="orange">div</span> <span class="lime">class</span> = <span class="yellow">"wrapper"</span>&gt;
+            </code>
+        </figure>
+        <p>Nommez le nom de la class de votre div conteneur wrapper:
+            <&nbsp;div class="wrapper" &nbsp;>.</p>
+        <p>2. Dans votre
+          <figure class="step">
+              <code class="language-html" data-lang="html">
+                &lt;<span class="orange">div</span> <span class="lime">class</span> = <span class="yellow">"wrapper"</span>&gt;
+              </code>
+          </figure>
+        <p>Nommez le nom de la class de votre div ligne row:
+            </p>
+            <figure class="step">
+              <code class="language-html" data-lang="html">
+                &lt;<span class="orange">div</span> <span class="lime">class</span> = <span class="yellow">"row"</span>&gt;
+              </code>
+            </figure>
+        <p>3. Ajoutez une div colonne dans votre ligne:
+          <figure class="step">
+            <code class="language-html" data-lang="html">
+              &lt;<span class="orange">div</span> <span class="lime">class</span> = <span class="yellow">"wrapper"</span>&gt;<br>
+              &lt;<span class="orange">div</span> <span class="lime">class</span> = <span class="yellow">"row"</span>&gt;<br>
+              &lt;<span class="orange">div</span> <span class="lime">class</span> = <span class="yellow">"col"</span>&gt;
+              <span>Enfin ma première ligne</span>&lt;/<span class="orange">div</span>&gt;<br>
+              &lt;/<span class="orange">div</span>&gt;
+            </code>
+          </figure>
+          </p>
         <p>Enchaînez plusieurs colonnes pour adapter votre structure. Sur cet extrait en dessous, vous obtenez 5 colonnes sur une ligne.</p>
-        <img src="images/row_for_five_columns.png" alt="row_for_five_columns" title='5 div colonnes dans une div '>
+        <figure class="step">
+          <code class="language-html" data-lang="html">
+            &lt;<span class="orange">div</span> <span class="lime">class</span> = <span class="yellow">"row"</span>&gt;<br>
+            &lt;<span class="orange">div</span> <span class="lime">class</span> = <span class="yellow">"col"</span>&gt;<br>
+            <span>Enfin ma première ligne</span><br>
+            &lt;/<span class="orange">div</span>&gt;<br>
+                        &lt;<span class="orange">div</span> <span class="lime">class</span> = <span class="yellow">"col"</span>&gt;<br>
+            <span>Enfin ma première deuxième ligne</span><br>&lt;/<span class="orange">div</span>&gt;<br>
+            <span>Enfin ma troisième ligne</span><br>&lt;/<span class="orange">div</span>&gt;<br>
+            <span>Enfin ma quatrième ligne</span><br>&lt;/<span class="orange">div</span>&gt;<br>
+            &lt;/<span class="orange">div</span>&gt;
+          </code>
+        </figure>
         <p>Nommez les div ainsi vous servira à activer le grid simple s'en charge.</p>
         <p>Ainsi, il est inutile de faire une page css pour structurer votre gabarit puisque c'est déjà prêt!</p>
-      </section>
+    </section>
 
 </body>
 

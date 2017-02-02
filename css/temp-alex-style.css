@@ -9,6 +9,25 @@
   padding: 5%;
   text-align: center;
 }
+/***span**/
+figure {
+  background-color: #4b4b51;/*Exemple background transparent*/
+  border: 3px solid #4b4b51;
+  border-radius: 10px;
+  padding: 10px;
+  color: gray;
+  line-height: 30px;
+  text-align: left;
+}
+.orange {
+  color: orange
+}
+.lime {
+  color:lime;
+}
+.yellow {
+  color: yellow;
+}
 /*Modèle homepage bloc dégradé couleur+bloc pleine page--Ajout framework ?*/
 #fullhomeblock {
   background: linear-gradient(to bottom, #327295, #4c92b8);
